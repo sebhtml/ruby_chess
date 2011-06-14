@@ -1,0 +1,7 @@
+I am using Ubuntu GNU/Linux version edgy 6.10 on my hp dv 4000 pavilion laptop.
+
+I get a lot of this error. (in STDERR of course)
+
+/usr/lib/ruby/1.8/glib2.rb: line 55
+   GLib-GObject-CRITICAL **:g_boxed_type_register_static: assertion `g_type_from_name (name) == 0' failed
+
