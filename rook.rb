@@ -30,7 +30,7 @@
 
 
 
-require 'man'
+require_relative 'man'
 
 class Rook < Man
   build 'r', 'R', possible_moves

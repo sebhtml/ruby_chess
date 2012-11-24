@@ -30,7 +30,7 @@
 
 
 
-require 'queen'
+require_relative 'queen'
 
 class Intelligence
   def choose board, moves_list, player

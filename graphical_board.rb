@@ -30,8 +30,8 @@
 
 
 require 'gtk2'
-require 'tile'
-require 'chess_button'
+require_relative 'tile'
+require_relative 'chess_button'
 
 class GraphicalBoard  < Gtk::Table
 
@@ -94,7 +94,7 @@ class GraphicalBoard  < Gtk::Table
       gtk_label2.label = label.chr
       attach gtk_label, i, i+1, 0, 1
       attach gtk_label2, i, i+1, 9, 10
-      label +=1
+      label +=1.to_s
     end
 
     show_all

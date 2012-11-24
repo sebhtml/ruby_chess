@@ -31,7 +31,7 @@
 
 
 require 'gtk2'
-require 'tile'
+require_relative 'tile'
 
 class ChessButton < Gtk::Button
   FROM_COLOR= Gdk::Color.new 50000, 20000, 20000

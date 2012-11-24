@@ -30,8 +30,8 @@
 
 
 
-require 'man'
-require 'vectorial_move'
+require_relative 'man'
+require_relative 'vectorial_move'
 
 class Pawn < Man
   build 'p', 'P', possible_moves

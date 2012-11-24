@@ -30,7 +30,7 @@
 
 
 
-require 'man'
+require_relative 'man'
 
 class Queen  < Man
   build 'q', 'Q', possible_moves

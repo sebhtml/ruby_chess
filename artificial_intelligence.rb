@@ -29,14 +29,14 @@
 =end
 
 
-require 'intelligence'
-require 'tile'
-require 'king'
-require 'queen'
-require 'pawn'
-require 'rook'
-require 'bishop'
-require 'knight'
+require_relative 'intelligence'
+require_relative 'tile'
+require_relative 'king'
+require_relative 'queen'
+require_relative 'pawn'
+require_relative 'rook'
+require_relative 'bishop'
+require_relative 'knight'
 
 class ArtificialIntelligence  < Intelligence
 

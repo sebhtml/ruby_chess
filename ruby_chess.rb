@@ -29,7 +29,7 @@
 =end
 
 
-require 'chess.rb'
+require_relative 'chess.rb'
 
 Chess.new
 

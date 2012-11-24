@@ -29,7 +29,7 @@
 =end
 
 
-require 'intelligence'
+require_relative 'intelligence'
 
 class Human <  Intelligence
   def promotion_chooser

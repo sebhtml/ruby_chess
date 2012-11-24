@@ -31,11 +31,11 @@
 
 
 require 'gtk2'
-require 'queen'
-require 'rook'
-require 'bishop'
-require 'knight'
-require 'chess_button'
+require_relative 'queen'
+require_relative 'rook'
+require_relative 'bishop'
+require_relative 'knight'
+require_relative 'chess_button'
 
 class ManSelector < Gtk::Dialog
   def initialize player, board

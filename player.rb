@@ -29,14 +29,14 @@
 =end
 
 
-require 'color'
-require 'artificial_intelligence'
-require 'queen'
-require 'knight'
-require 'king'
-require 'pawn'
-require 'rook'
-require 'bishop'
+require_relative 'color'
+require_relative 'artificial_intelligence'
+require_relative 'queen'
+require_relative 'knight'
+require_relative 'king'
+require_relative 'pawn'
+require_relative 'rook'
+require_relative 'bishop'
 
 class Player
   def to_s

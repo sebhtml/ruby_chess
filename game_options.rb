@@ -31,8 +31,8 @@
 
 
 require 'gtk2'
-require 'human'
-require 'artificial_intelligence'
+require_relative 'human'
+require_relative 'artificial_intelligence'
 
 class GameOptions < Gtk::Window
   def initialize chess

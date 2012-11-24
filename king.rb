@@ -30,7 +30,7 @@
 =end
 
 
-require 'man'
+require_relative 'man'
 
 class King < Man
   build 'k', 'K', possible_moves

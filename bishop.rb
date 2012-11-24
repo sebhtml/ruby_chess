@@ -30,7 +30,7 @@
 
 
 
-require 'man'
+require_relative 'man'
 
 class Bishop < Man
   build 'b', 'B', possible_moves

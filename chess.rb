@@ -30,17 +30,17 @@
 
 
 
-require 'help_window'
-require 'man_selector'
-require 'board_selector'
-require 'player'
-require 'game_options'
-require 'graphical_board'
-require 'color'
-require 'artificial_intelligence'
-require 'human'
-require 'board'
-require 'chess_window'
+require_relative 'help_window'
+require_relative 'man_selector'
+require_relative 'board_selector'
+require_relative 'player'
+require_relative 'game_options'
+require_relative 'graphical_board'
+require_relative 'color'
+require_relative 'artificial_intelligence'
+require_relative 'human'
+require_relative 'board'
+require_relative 'chess_window'
 
 class Chess
   SELECT_FROM = 2

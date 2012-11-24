@@ -30,8 +30,8 @@
 
 
 
-require 'move'
-require 'board'
+require_relative 'move'
+require_relative 'board'
 
 class Man
   IMAGE_PATH = 'pixmaps/'

@@ -29,8 +29,8 @@
 =end
 
 
-require 'man'
-require 'vectorial_move'
+require_relative 'man'
+require_relative 'vectorial_move'
 
 class Knight < Man
   build 'n', 'N', possible_moves
